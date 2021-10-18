@@ -1,0 +1,4 @@
+# Project exclude paths
+/.gradle/
+/Guice_DI/build/
+/Guice_DI/build/classes/java/main/
