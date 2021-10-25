@@ -7,11 +7,12 @@ plugins {
 
 allprojects{
     apply {plugin ("java")}
-    repositories{
+    repositories {
         mavenCentral()
     }
 
     dependencies{
+        implementation("org.jetbrains:annotations:20.1.0")
         implementation ("com.google.inject:guice:5.0.1")
         implementation ("org.jetbrains:annotations:13.0")
     }
